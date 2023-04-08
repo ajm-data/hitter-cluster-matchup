@@ -7,23 +7,22 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans,AgglomerativeClustering,DBSCAN,SpectralClustering
-from sklearn.mixture import GaussianMixture
-from sklearn.metrics import silhouette_samples, silhouette_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, r2_score
 from sklearn import tree
 from sklearn import metrics
-import json
-import scipy.stats as stats
 
+import json
+
+import scipy.stats as stats
 from scipy.stats import binom, binom_test
-import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 from scipy.stats import distributions as dist
 from scipy.stats import beta
+
 import pandasql as ps
 from pandasql import sqldf
+
 from st_aggrid import AgGrid
 
 
