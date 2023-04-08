@@ -154,7 +154,7 @@ def show_clusters():
 
     # cluster = st.selectbox('Choose Cluster', tvs_clusters)
 
-    col21, col22 = st.columns([3,2])
+    col21, col22 = st.columns(2)
 
 
     with col21:
